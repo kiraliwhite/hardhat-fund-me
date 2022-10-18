@@ -1,3 +1,4 @@
+require("@nomiclabs/hardhat-waffle");
 require("hardhat-deploy");
 //const { task } = require("hardhat/config");
 require("@nomicfoundation/hardhat-toolbox");
@@ -32,7 +33,7 @@ module.exports = {
   },
   //solidity: "0.8.7",
   solidity: {
-    compilers: [{ version: "0.8.12" }, { version: "0.6.6" }],
+    compilers: [{ version: "0.8.7" }, { version: "0.6.6" }],
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,

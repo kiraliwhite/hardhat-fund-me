@@ -9,6 +9,9 @@ const networkConfig = {
     name: "polygon",
     ethUsdPriceFeed: "0xF9680D99D6C9589e2a93a78A04A279e509205945",
   },
+  31337: {
+    name: "localhost",
+  },
 };
 
 //宣告一個變數 存放陣列 index0為 hardhat index1為localhost
